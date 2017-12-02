@@ -1,0 +1,358 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  Helvetica, Arial, sans-serif;
+    color: #5a5a5a;
+}
+
+.clearfix {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#topbar, #menu-bar {
+    max-width: 1200px;
+}
+
+/******************************
+        Top Bar Menu
+******************************/
+#topbar {
+    width: 90%;
+    margin: 0 auto;
+    height: 40px;
+}
+
+#bbc-logo {
+    margin-top: 8px;
+    width: 84px;
+    float: left;
+    margin-right: 8px;
+}
+
+.topbar-section {
+    float: left;
+    border-left: 1px solid #ccc;
+    height: 100%;
+    margin-right: -5px;
+    margin-left: 5px;
+}
+
+.topbar-menu {
+    font-weight: bold;
+    font-size: 90%;
+    padding: 13px 12px 0 12px;
+    height: 27px;
+}
+
+#signin-img {
+    margin: 8px 11px;
+    float: left;
+}
+
+#signin-text {
+    font-weight: bold;
+    font-size: 90%;
+    position: relative;
+    top: 12px;
+    padding-right: 50px;
+}
+
+#down-arrow {
+    margin-left: 50px;
+    position: relative;
+    top: 4px;
+}
+
+.more-menu {
+    border-right: 1px solid #ccc;
+}
+
+.search {
+    float: right;
+    margin-right: 13px;
+}
+
+#search-box {
+    float: left;
+    background-color: #E4E4E4;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+    padding-right: 180px;
+    margin: 7px 0 7px 5px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#search-img {
+    height: 27px;
+    margin-top: 6px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+/******************************
+        Menu Bar
+******************************/
+
+#menubar-container {
+    background-color: #BB1919;
+    height: 56px;
+    border-top: 1px solid #ccc;
+}
+
+#menu-bar {
+    width: 85%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+#menu-bar h1 {
+    margin: 0;
+    padding: 0;
+    padding-top: 6px;
+    font-size: 40px;
+    font-weight: normal;
+    float: left;
+}
+
+#local-news {
+    float: right;
+    border: 1px solid #bb4545;
+    width: 200px;
+    padding: 5px 0 5px 0;
+    margin: 8px 13px 10px 0;
+    text-align: center;
+
+}
+
+#local-news a {
+    color: #fff;
+    font-size: 1.4em;
+    position: relative;
+    margin-right: 5px;
+    margin-left: 0;
+    padding: 0;
+}
+
+#local-news img {
+    height: 20px;
+    position: relative;
+    top: 2px;
+}
+
+#bottom-menu-container {
+    background-color: #A91717;
+    width: 100%;
+}
+
+#bottom-menu {
+    width: 1000px;
+    height: 36px;
+    margin: 0 auto;
+}
+
+#bottom-menu ul {
+    padding: 0;
+    margin: 0;
+}
+#bottom-menu ul li {
+    float: left;
+    margin: 10px 0 0 0;
+    padding: 0 10px 0 10px;
+    color: white;
+    list-style: none;
+    border-right: 1px solid #bb4545;
+    font-size: 95%;
+}
+
+#bottom-menu ul li:first-child {
+    padding-left: 0 !important;
+}
+
+.noborder {
+    border: none !important;
+    position: relative;
+    top: -1px;
+}
+
+#white-arrow {
+    position: relative;
+    top: 0;
+    right: -10px;
+    height: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+
+/******************************
+        Main Content
+******************************/
+#main-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.content-container {
+    border-bottom: 1px solid #ccc;
+    width: 700px;
+    float: left;
+    margin-right: 10px;
+}
+
+#main-content h2 {
+    color: #222222;
+    font-weight: normal;
+    margin-top: 40px;
+    font-size: 24px;
+    border-bottom: 3px solid #a91717;
+    max-width: 122px;
+
+}
+
+#main-content h3 a {
+    color: black;
+    font-size: 32px;font-weight: bold;
+    text-decoration: none;
+}
+
+#main-content p {
+    width: 250px;
+    padding: 0;
+    margin: 0 0 12px;
+}
+
+.date-link {
+    width: 250px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 350px;
+}
+
+.date-link img {
+    height: 20px;
+    position: relative;
+    top: -2px;;
+    margin-right: 3px;
+}
+
+#topic-link {
+    color: #a91717;
+    border-left: 1px solid #ccc;
+    padding-left: 5px;
+    margin-left: 3px;
+}
+
+.container-wrapper {
+    float: left;
+    padding-right: 15px;
+}
+
+#img-content {
+    width: 432px;
+    height: 215px;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+#main-content hr {
+    border-top: 1px solid #a91717;
+    width: 50px;
+    position: relative;
+    padding: 0;
+    margin: 0 0 5px;
+}
+
+.related-link a {
+    width: 250px;
+    color: black;
+    font-size: 14px;
+    margin: 10px 0 0;
+    padding: 10px 0 0;
+}
+
+/*****Watch/Listen*****/
+.article-container {
+        margin: 0 0 15px;;
+        padding: 0;
+}
+
+#watch-listen {
+    width: 279px;
+    height: 100%;
+    margin: 0;
+    padding: 0 0 0 10px;
+    border-left: 1px solid #ccc;
+    float: right;
+}
+#watch-listen h4 {
+    font-size: 25px;
+    font-weight: normal;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.article-images {
+    width: 110px;
+    float: left;
+    padding-right: 10px;
+}
+
+.article-div a {
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.article-date {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.article-date img {
+    position: relative;
+    top: 10px;
+}
+
+/******************************
+        Pseudo Codes
+******************************/
+
+.topbar-hover:hover {
+    box-shadow: 0 3px 0 #1188BB;
+}
+
+#local-news a:hover {
+    text-decoration: underline;
+}
+
+ #main-container a:hover {
+    color: #1167a8;
+}
+/*
+#main-content h3 a:hover {
+    color: #1167a8;
+}
+
+.date-link p a:hover {
+    color: #1167a8;
+}
+
+.related-link a:hover {
+    color:  #1167a8;
+}
+*/
